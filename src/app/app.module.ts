@@ -1,0 +1,38 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { HCNComponent } from './hcn/hcn.component';
+import { TinhTongComponent } from './tinh-tong/tinh-tong.component';
+import { Bai7Component } from './bai7/bai7.component';
+import { Bai1Component } from './bai1/bai1.component';
+import { Bai2Component } from './bai2/bai2.component';
+import { Bai6Component } from './bai6/bai6.component';
+import { Bai3Component } from './bai3/bai3.component';
+import { Bai4Component } from './bai4/bai4.component';
+import { Bai5Component } from './bai5/bai5.component';
+import { Bai8Component } from './bai8/bai8.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HCNComponent,
+    TinhTongComponent,
+    Bai7Component,
+    Bai1Component,
+    Bai2Component,
+    Bai6Component,
+    Bai3Component,
+    Bai4Component,
+    Bai5Component,
+    Bai8Component
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
